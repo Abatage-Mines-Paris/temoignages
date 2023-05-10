@@ -22,6 +22,9 @@
     touch-action: manipulation;
     vertical-align: baseline;
     transition: all .2s cubic-bezier(.22, .61, .36, 1);
+    width: 20%;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
   .button:hover {
@@ -34,4 +37,15 @@
       padding: 16px 44px;
       min-width: 150px;
     }
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  span {
+    width : 100%;
+    text-align: center;
   }
