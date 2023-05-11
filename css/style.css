@@ -12,7 +12,7 @@ body {
 
     background-color: #005e9e;
     color: #fff;
-    padding: 0.2em;
+    padding: 0.05em;
     align-items: center;
 }
 
@@ -53,8 +53,6 @@ body {
     background-size:auto;
     background-position: center;
 
-    
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
 }
