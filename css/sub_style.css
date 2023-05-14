@@ -1,0 +1,46 @@
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    border: solid 1px #000000;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border : solid 2px #000000;
+    border-radius: 1em;
+    padding: 1em 0.5em 1em 0.5em;
+    background-color: #005e9e;
+    color: white;
+}
+
+span {
+    font-size: 1.5em;
+    font-weight: 600;
+    border-right: solid 2px #000000;
+    padding-right: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-align: right;
+}
+
+#links {
+    margin-bottom: 3em;
+    font-style: italic;
+    padding-right: 1em;
+    padding-left: 1em;
+    color : rgb(116, 116, 116);
+}
+
+#links h2 {
+    font-style: normal;
+    color: black;
+}

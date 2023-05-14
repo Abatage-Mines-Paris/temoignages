@@ -32,7 +32,7 @@
     background-color: #054874;
     transform: translateY(-2px);
   }
-  
+
   @media (min-width: 768px) {
     .button {
       padding: 16px 44px;
