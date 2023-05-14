@@ -1,0 +1,27 @@
+@media screen and (max-device-width: 600px) {
+    .testimony {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    span {
+        font-size: 1.75em;
+    }
+
+    .profile {
+        border-right: none;
+        border-bottom: solid 4px #ffffff;
+        flex-direction: row;
+        padding-bottom: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .a_text {
+        font-size: 2.1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 0.5em;
+    }
+}

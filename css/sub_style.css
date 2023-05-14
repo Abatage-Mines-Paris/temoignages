@@ -25,11 +25,21 @@
 span {
     font-size: 1.5em;
     font-weight: 600;
-    border-right: solid 2px #000000;
     padding-right: 0.5em;
     margin-left: 0.5em;
     margin-right: 0.5em;
     text-align: right;
+}
+
+.a_text {
+    font-size: 1.1em;
+}
+
+.profile {
+    border-right: solid 3px #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
 }
 
 #links {

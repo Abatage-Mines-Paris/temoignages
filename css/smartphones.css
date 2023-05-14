@@ -1,53 +1,27 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-device-width: 600px) {
     .banner {
-        font-size: 5 em;
-        display: flex;
-    
-        background-color: #005e9e;
-        color: #fff;
+        font-size: 2.5em;
         padding: 0.05em;
         align-items: center;
     }
-    
-    .banner p {
-        font-weight: 600;
-        flex : 1;
-    }
-    
-    #logo {
-        height: 3em;
-        margin: 0.5em;
-    }
-    
-    #links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        flex: 1;
-    
-        font-size : 1.2em;
-    }
-    
-    #social{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex: 1;
-        font-size: 2.3em;
-    }
-    
+
     #content {
-        height : 100%;
-    
-        background-image: url(../ressources/mines.svg);
-        background-repeat: no-repeat;
-        background-size:auto;
-        background-position: center;
-    
-        align-items: center;
-        justify-content: center;    
+        background-position:center;
+    }
+
+    #logo {
+        margin-right:0;
+    }
+
+    #links {
+        font-size: 2.5em;
+    }
+
+    .button {
+        width: 40%;
+        font-size: 3em;
+        padding: 1em 0.5em 1em 0.5em;
+        vertical-align: middle;
     }
   }
 
