@@ -4,6 +4,7 @@ body {
     background-color: #d8effe;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .banner {
@@ -47,7 +48,6 @@ body {
 }
 
 #content {
-    height : 100%;
 
     background-image: url(../ressources/mines.svg);
     background-repeat: no-repeat;
@@ -57,4 +57,36 @@ body {
     align-items: center;
     justify-content: center;    
     margin-bottom:40px;
+}
+
+#footer {
+    font-size: 1em;
+    display: flex;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+
+    background-color: #005e9e;
+    text-align: right;
+}
+
+#footer p {
+    font-weight: 500;
+    flex : 1;
+    margin-left:2em;
+    margin-right:2em;
+    color: #adcade;
+}
+
+#desc {
+    text-align: left;
+}
+
+#adm {
+    color :#adcade;
+    text-decoration: none;}
+
+#contributors {
+    color :chartreuse;
+    text-decoration: none;
 }
